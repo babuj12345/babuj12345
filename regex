@@ -629,3 +629,13 @@ return name.matches("([A-Z][a-z]+)([A-Z][a-z]+){0,9})";
 }
 
 
+ public Boolean isValidReportedOn(LocalDate reportedOn)
+ {
+	// Your Code Goes Here
+     if(reportedOn.isAfter(LocalDate.now())|| reportedOn==null) {
+	 return false;
+     }
+
+return true;
+ }
+
