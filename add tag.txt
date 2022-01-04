@@ -1,0 +1,7 @@
+#req for adding a tag 
+
+-on entering tags it should display list of all tags which is there in the tag list
+
+-in add a tag we need to add a validation which will through error if we try to add tag which is already present in some other level skill tag 
+
+
